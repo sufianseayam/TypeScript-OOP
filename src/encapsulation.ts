@@ -7,7 +7,7 @@
 //4.read-only
 
 class Employee{
-  constructor( public name:string;
+  constructor( public name:string,
    private _baseSalary:number){ }
 
    get baseSalary():number{
